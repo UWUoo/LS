@@ -1,0 +1,87 @@
+body {
+    background-color: aquamarine;
+}
+p
+{
+    font: size 10px;
+    font-family: cursive;
+    font-size: large;
+}
+img {
+    border: 20px;
+    border: solid black 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding:20px;
+    background-color: rgb(126, 61, 10);
+    }
+    
+    
+    
+.secondbutton {
+    background-color: rgb(71, 234, 50);
+    color:rgb(162, 167, 31);
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border:none;
+    transition: background-color 0.5s;
+    transition: color 2s;
+    }
+.secondbutton:hover {
+    background-color: bisque;
+    cursor: none;
+    box-shadow: 0px 0px 10px black;
+    }
+.secondbutton:active {
+    color: rgb(119, 0, 255);
+    transition: box-shadow 1s;
+    }
+.thirdbutton {
+    background-color: rgb(255, 111, 0);
+    color:rgb(0, 179, 255);
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border:none;
+    transition: background-color 0.5s;
+    transition: color 2s;   
+    }
+.thirdbutton:hover{
+    background-color: rgb(18, 114, 5);
+    cursor: none;
+    box-shadow: 0px 0px 10px black;
+    }
+.thirdbutton:active{
+    color: rgb(4, 0, 255);
+    transition: box-shadow 1s;
+    }
+
+.p2{
+    font-weight: bold ;
+    }  
+header ul{
+    float: right;
+    list-style: none;
+    color: black;
+    margin-right: 50px;
+}
+header li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 25px;
+    font-family: cursive;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+header a{
+    text-decoration: none;
+}
+#active{
+    color:blue;
+    background-color: brown;
+}
+

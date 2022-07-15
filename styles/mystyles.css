@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+a{
+color: bisque;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-size: 16px;
+    font-family: cursive;
+    min-height: 170vh;
+    color:white;
+}
+header{
+    padding: 10px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    backdrop-filter: blur(10px);
+}
+header img{
+    width:100px;
+    border-radius: 80px;
+}
+header ul{
+float: right;
+list-style: none;
+font-size: 20px;
+
+}
+header li{
+display: inline-block;
+margin:15px;
+
+}
+header a{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color:bisque;
+    border-radius: 10px;
+}
+header a:hover{
+background-color: bisque;
+color: green;
+transition:1s;
+}
+main p{
+    height: 200px;
+}
+main{
+    padding-top: 120px;
+}
+.secondbutton {
+    background-color: rgb(71, 234, 50);
+    color:rgb(162, 167, 31);
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 10px;
+    border:none;
+    transition: background-color 0.5s;
+    transition: color 2s;  
+}
+.secondbutton:hover {
+    background-color: bisque;
+    cursor: none;
+    box-shadow: 0px 0px 10px black;
+}
+.secondbutton:active {
+    color: rgb(119, 0, 255);
+    transition: box-shadow 1s;
+}
+.thirdbutton {
+    background-color: rgb(255, 111, 0);
+    color:rgb(0, 179, 255);
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 10px;
+    border:none;
+    transition: background-color 0.5s;
+    transition: color 2s;
+}
+.thirdbutton:hover{
+    background-color: rgb(18, 114, 5);
+    cursor: none;
+    box-shadow: 0px 0px 10px black;
+}
+.thirdbutton:active{
+    color: rgb(4, 0, 255);
+    transition: box-shadow 1s;
+}
+.middleCenter{
+    text-align: center;
+    padding-top: 250px;
+}
+.but-feel{
+    border: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: blue;
+    display: inline-block;
+}
+footer{
+    position: fixed;
+    bottom: -170px;
+    color: bisque;
+    padding-left: 20px;
+    right: 0px;
+    left: 0px;
+    background-color:rgba(0,0,0,0.5);
+}
+.gridSection {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+.gridcol{
+    background-color: bisque;
+    margin:40px;
+    border-radius: 10px;
+    text-align: center;
+    color: blue;
+    display: inline-block;
+}
